@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/describe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Menu"
+            android:fontFamily="sans-serif-light"
+            android:padding="10sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:padding="10dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="50sp"
+            android:text="Bienvenue,"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:padding="10dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:text="veuillez choisir votre option"
+
+            />
+        <Button
+            style="@style/buttonMenu"
+            android:background="@drawable/rect4"
+            android:text="Contact"
+            android:onClick="gotoContact"
+            />
+        <Button
+            style="@style/buttonMenu"
+            android:background="@drawable/rect4"
+            android:text="Chronometre"
+            android:onClick="gotoChrono"
+            />
+        <Button
+            style="@style/buttonMenu"
+            android:background="@drawable/rect4"
+            android:text="Calculatrice"
+            android:onClick="gotoCalculatrice"
+            />
+        <Button
+            style="@style/buttonMenu"
+            android:background="@drawable/rect4"
+            android:text="À propos"
+            android:onClick="gotoApropos"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

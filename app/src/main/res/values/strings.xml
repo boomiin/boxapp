@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AppBox</string>
+    <string name="details">
+        AppBox est une application complete qui regroupe trois applications : \n
+        Un calculatrice \n
+        Un chronomètre \n
+        Un gestionnaire de contact\n\n
+        Cette application est le resultat de deux nuits de recherche du groupe constitué de \n\n
+        ASSALE ROXANA \n
+        KOFFI KOUASSI EDY \n
+        AKA CHRIS HYANN \n
+        TIEMELE ELIUD \n\n
+
+        étudiants en SIGL 3 à l\'ESATIC
+    </string>
+</resources>
